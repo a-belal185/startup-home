@@ -1,0 +1,189 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  font-size: 3.25rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#title {
+  background-color: #30e3ca;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.turn-invisible {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  background-color: #e4f9f5;
+  position: relative;
+}
+
+.features-section {
+  text-align: center;
+  padding: 5%;
+}
+
+.features-desc {
+  color: #8F8F8F;
+  font-family: Montserratm, sans-serif;
+  margin-bottom: 150px;
+}
+
+.features-icon {
+  color: #11999e;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #30e3ca;
+}
+
+/*Testimonial Section*/
+#testimonials {
+  text-align: center;
+  background-color: #11999e;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #11999e;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: #e4f9f5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Footer Section */
+#cta {
+  text-align: center;
+  background-color: #30e3ca;
+  padding: 7% 15%;
+}
+
+#footer {
+  background-color: #e4f9f5;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-title {
+  color: #fff;
+  font-weight: 900;
+  font-family: Montserrat, sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.copyright {
+  text-align: center;
+  line-height: 2;
+  padding: 1%;
+  color: black;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+.social-media {
+  text-align: center;
+  line-height: 2;
+  padding: 1%;
+  color: black;
+}
+
+.social-media:hover {
+  color: #8F8F8F;
+}
