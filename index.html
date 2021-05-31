@@ -24,7 +24,7 @@
 
 <body>
 
-  <section id="title">
+  <section class="colored-section" id="title">
     <div class="container-fluid">
 
 
@@ -56,7 +56,7 @@
       <div class="row">
 
         <div class="col-lg-6">
-          <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+          <h1 class="big-heading">Lorem ipsum dolor sit amet consectetur.</h1>
           <button class="download-btn btn btn-dark btn-lg" type="button"><i class="fab fa-apple"></i> Download</button>
           <button class="download-btn btn btn-lg btn-outline-light" type="button"><i class="fab fa-google-play"></i> Download</button>
         </div>
@@ -74,26 +74,28 @@
 
   <!-- Features -->
 
-  <section id="features">
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="features-section col-lg-4">
+          <i class="features-icon fa-4x fas fa-check-circle"></i>
+          <h3 class="features-title">Easy to use.</h3>
+          <p class="features-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </div>
 
-    <div class="row">
-      <div class="features-section col-lg-4">
-        <i class="features-icon fa-4x fas fa-check-circle"></i>
-        <h3 class="features-titles">Easy to use.</h3>
-        <p class="features-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <div class="features-section col-lg-4">
+          <i class="features-icon fa-4x fas fa-bullseye"></i>
+          <h3 class="features-title">Elite Clientele</h3>
+          <p class="features-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="features-section col-lg-4">
+          <i class="features-icon fa-4x fas fa-heart"></i>
+          <h3 class="features-title">Guaranteed to work.</h3>
+          <p class="features-desc">Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod.</p>
+        </div>
       </div>
 
-      <div class="features-section col-lg-4">
-        <i class="features-icon fa-4x fas fa-bullseye"></i>
-        <h3 class="features-titles">Elite Clientele</h3>
-        <p class="features-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="features-section col-lg-4">
-        <i class="features-icon fa-4x fas fa-heart"></i>
-        <h3 class="features-titles">Guaranteed to work.</h3>
-        <p class="features-desc">Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod.</p>
-      </div>
     </div>
 
   </section>
@@ -101,16 +103,16 @@
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section class="colored-section" id="testimonials">
 
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Sliqua.</h2>
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Sliqua.</h2>
           <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
           <em>Pebbles, New York</em>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item container-fluid">
           <h2 class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h2>
           <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
           <em>Beverly, Illinois</em>
@@ -129,7 +131,7 @@
 
   <!-- Press -->
 
-  <section id="press">
+  <section class="colored-section" id="press">
     <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
     <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
     <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
@@ -140,9 +142,9 @@
 
   <!-- Pricing -->
 
-  <section id="pricing">
+  <section class="white-section" id="pricing">
 
-    <h2>A Plan for Everyone's Needs</h2>
+    <h2 class="section-heading">A Plan for Everyone's Needs</h2>
     <p>Simple and affordable price plans made just for you.</p>
 
     <div class="card-deck row">
@@ -152,7 +154,7 @@
             <h3>Basic</h3>
           </div>
           <div class="card-body">
-            <h2>$10 / mo</h2>
+            <h2 class="price-text">$10 / mo</h2>
             <p>Lorem ipsum dolor sit amet</p>
             <p>Lorem ipsum dolor sit amet</p>
             <p>Lorem ipsum dolor sit amet</p>
@@ -168,7 +170,7 @@
             <h3>Plus</h3>
           </div>
           <div class="card-body">
-            <h2>$49 / mo</h2>
+            <h2 class="price-text">$49 / mo</h2>
             <p>Lorem ipsum dolor sit amet</p>
             <p>Lorem ipsum dolor sit amet</p>
             <p>Lorem ipsum dolor sit amet</p>
@@ -184,7 +186,7 @@
             <h3>Professional</h3>
           </div>
           <div class="card-body">
-            <h2>$99 / mo</h2>
+            <h2 class="price-text">$99 / mo</h2>
             <p>Lorem ipsum dolor sit amet</p>
             <p>Lorem ipsum dolor sit amet</p>
             <p>Lorem ipsum dolor sit amet</p>
@@ -200,21 +202,25 @@
 
   <!-- Call to Action -->
 
-  <section id="cta">
+  <section class="colored-section" id="cta">
 
-    <h3 class="footer-title">Download Lorem Application Today.</h3>
-    <button type="button" class="download-btn btn btn-lg btn-dark"><i class="fab fa-apple"></i> Download</button>
-    <button type="button" class="download-btn btn btn-lg btn-light"><i class="fab fa-google-play"></i> Download</button>
+    <div class="container-fluid">
+      <h3 class="cta-heading">Download Lorem Application Today.</h3>
+      <button type="button" class="download-btn btn btn-lg btn-dark"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="download-btn btn btn-lg btn-light"><i class="fab fa-google-play"></i> Download</button>
 
+    </div>
   </section>
 
 
   <!-- Footer -->
 
-  <footer id="footer">
-    <i class="social-media fab fa-twitter"></i><i class="social-media fab fa-facebook-f"></i><i class="social-media fab fa-instagram"></i><i class="social-media fas fa-envelope"></i>
-    <p class="copyright">© Copyright 2021 Ahmed B. Elwan</p>
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-media fab fa-twitter"></i><i class="social-media fab fa-facebook-f"></i><i class="social-media fab fa-instagram"></i><i class="social-media fas fa-envelope"></i>
+      <p class="copyright">© Copyright 2021 Ahmed B. Elwan</p>
   </footer>
+  </div>
 
 
 </body>
