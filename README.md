@@ -1,1 +1,1 @@
-TinDog Starting Files
+Startup company's home page.
